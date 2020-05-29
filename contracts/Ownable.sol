@@ -1,5 +1,9 @@
 pragma solidity ^0.5.16;
 
+/**
+  * This ownable contract is based on Open Zeppelins RBAC Ownable contract.
+  * reference: https://docs.openzeppelin.com/contracts/2.x/api/access#Ownable */
+
 /// Provides basic authorization control
 contract Ownable {
     address private origOwner;

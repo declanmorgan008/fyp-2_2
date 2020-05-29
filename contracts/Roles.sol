@@ -1,6 +1,13 @@
 pragma solidity ^0.5.16;
 
 /**
+  * This contract is a library based on Open Zeppelin's RBAC Roles contract
+  * reference: https://docs.openzeppelin.com/contracts/2.x/api/access#Roles */
+
+
+
+
+/**
  * @title Roles
  * @dev Library for managing addresses assigned to a Role.
  */
